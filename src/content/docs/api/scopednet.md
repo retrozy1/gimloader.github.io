@@ -1,6 +1,6 @@
 ---
-title: Scoped Net Api
-description: Documentation for the Scoped Net Api
+title: Net Api
+description: Documentation for the Net Api
 ---
 # [ScopedApi](/api/scopedapi).net
 
@@ -80,6 +80,52 @@ Which type of server the client is currently connected to
 `ConnectionType`
 
 ## Methods
+
+### modifyFetchRequest()
+
+> **modifyFetchRequest**(`path`, `callback`): () => `void`
+
+Runs a callback when a request is made that matches a certain path (can have wildcards)
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `path` | `string` |
+| `callback` | (`options`) => `any` |
+
+#### Returns
+
+`Function`
+
+##### Returns
+
+`void`
+
+***
+
+### modifyFetchResponse()
+
+> **modifyFetchResponse**(`path`, `callback`): () => `void`
+
+Runs a callback when a response is recieved for a request under a certain path (can have wildcards)
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `path` | `string` |
+| `callback` | (`response`) => `any` |
+
+#### Returns
+
+`Function`
+
+##### Returns
+
+`void`
+
+***
 
 ### onLoad()
 

@@ -1,6 +1,6 @@
 ---
-title: Scoped Plugins Api
-description: Documentation for the Scoped Plugins Api
+title: Plugins Api
+description: Documentation for the Plugins Api
 ---
 # [ScopedApi](/api/scopedapi).plugins
 
@@ -58,6 +58,14 @@ Gets the headers of a plugin, such as version, author, and description
 
 > **author**: `string`
 
+##### changelog
+
+> **changelog**: `string`[]
+
+##### deprecated
+
+> **deprecated**: `string`
+
 ##### description
 
 > **description**: `string`
@@ -95,10 +103,6 @@ Only available for plugins
 ##### reloadRequired
 
 > **reloadRequired**: `string`
-
-##### syncEval
-
-> **syncEval**: `string`
 
 ##### version
 

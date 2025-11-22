@@ -1,6 +1,6 @@
 ---
-title: Libs Api
-description: Documentation for the Libs Api
+title: Global Libs Api
+description: Documentation for the Global Libs Api
 ---
 # [GL](/api/api).libs
 
@@ -58,6 +58,14 @@ Gets the headers of a library, such as version, author, and description
 
 > **author**: `string`
 
+##### changelog
+
+> **changelog**: `string`[]
+
+##### deprecated
+
+> **deprecated**: `string`
+
 ##### description
 
 > **description**: `string`
@@ -95,10 +103,6 @@ Only available for plugins
 ##### reloadRequired
 
 > **reloadRequired**: `string`
-
-##### syncEval
-
-> **syncEval**: `string`
 
 ##### version
 
